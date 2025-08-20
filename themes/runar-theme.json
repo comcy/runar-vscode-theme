@@ -1,0 +1,90 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "New Neo",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#140016", 
+    "editor.foreground": "#E0E0E0",
+    "editorCursor.foreground": "#39FF14",
+    "editor.lineHighlightBackground": "#1F0A24",
+    "editor.selectionBackground": "#7D00FF55",
+    "editor.inactiveSelectionBackground": "#FF007755",
+    "editorLineNumber.foreground": "#777",
+    "editorLineNumber.activeForeground": "#FF00AA",
+
+    "sideBar.background": "#1A001D",
+    "sideBar.foreground": "#CCCCCC",
+    "sideBarSectionHeader.background": "#2A0030",
+    "sideBarSectionHeader.foreground": "#FF00AA",
+    "sideBarTitle.foreground": "#FF66CC",
+
+    "activityBar.background": "#2A0030",
+    "activityBar.foreground": "#FF00AA",
+    "activityBar.activeBorder": "#39FF14",
+    "activityBarBadge.background": "#FF00AA",
+    "activityBarBadge.foreground": "#FFFFFF",
+
+    "titleBar.activeBackground": "#200028",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.inactiveBackground": "#15001A",
+    "titleBar.inactiveForeground": "#BBBBBB",
+
+    "statusBar.background": "#200028",
+    "statusBar.foreground": "#CCCCCC",
+    "statusBar.debuggingBackground": "#FF0077",
+    "statusBar.debuggingForeground": "#FFFFFF"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#6D6D6D",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": {
+        "foreground": "#FF00AA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string", "constant.character"],
+      "settings": {
+        "foreground": "#39FF14"
+      }
+    },
+    {
+      "scope": ["variable", "entity.name"],
+      "settings": {
+        "foreground": "#E0E0E0"
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#00FFD1"
+      }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#AA00FF"
+      }
+    },
+    {
+      "scope": "entity.name.class",
+      "settings": {
+        "foreground": "#FF0077",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "storage.modifier",
+      "settings": {
+        "foreground": "#FFDD00"
+      }
+    }
+  ]
+}

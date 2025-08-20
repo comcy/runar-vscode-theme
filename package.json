@@ -1,0 +1,30 @@
+{
+  "name": "runar-themes",
+  "version": "0.1.0",
+  "displayName": "Rúnar Themes",
+  "description": "Rúnar is a dark neon theme inspired by ancient Norse runes and modern cyber aesthetics. A fusion of mysticism and neon glow, crafted for those who code between worlds.",
+  "license":"MIT",
+  "repository": "git@github.com:comcy/neo-vscode-theme.git",
+  "publisher": "dein-name",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rúnar",
+        "uiTheme": "vs-dark",
+        "path": "./themes/runar-theme.json"
+      },
+      {
+        "label": "Rúnar Aurora",
+        "uiTheme": "vs-dark",
+        "path": "./themes/runar-aurora-theme.json"
+      }
+
+    ]
+  }
+}
