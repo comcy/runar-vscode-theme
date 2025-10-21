@@ -19,12 +19,7 @@ jobs:
           node-version: "20.x"
       - name: Install dependencies
         run: npm install
-      - name: Bump version
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          npm version patch -m "chore: bump version to %s"
-          git push
+
       - name: Get package name
         id: package_name
         run: echo "name=$(node -p "require('./package.json').name")" >> $GITHUB_OUTPUT
